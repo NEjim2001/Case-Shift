@@ -4,6 +4,10 @@
 
 Case Shift is a Next.js web application designed for text manipulation. Users can easily convert text to different cases, copy manipulated text to the clipboard, and perform other actions on their input text.
 
+## Deployed Version
+
+[Visit the deployed version](https://case-shift.vercel.app/)
+
 ## Key Features
 
 - **Text Case Conversion:** Convert text to various cases, including Upper, Lower, Title, Sentence, Toggle, Camel, Pascal, and Snake cases.
@@ -51,9 +55,6 @@ Case Shift is a Next.js web application designed for text manipulation. Users ca
    - Copy the manipulated text to the clipboard.
    - Clear the input textarea when needed.
 
-## Deployed Version
-
-[Visit the deployed version]("https://case-shift.vercel.app/")
 
 ## Technologies Used
 
