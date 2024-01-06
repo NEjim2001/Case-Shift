@@ -7,8 +7,7 @@ Case Shift is a Next.js web application designed for text manipulation. Users ca
 ## Key Features
 
 - **Text Case Conversion:** Convert text to various cases, including Upper, Lower, Title, Sentence, Toggle, Camel, Pascal, and Snake cases.
-- **Clipboard Copy:** Quickly copy manipulated text to the clipboard for easy sharing.
-- **Rephrase (To be Implemented):** Upcoming feature to rephrase the text.
+- **Rephrase (To be Implemented):** Rephrase text using AI.
 - **Character, Word, and Sentence Count:** Display counts of characters, words, and sentences in the input text.
 
 ## Project Overview
@@ -17,6 +16,10 @@ Case Shift is a Next.js web application designed for text manipulation. Users ca
 
 - **Framework:** Built with Next.js, a React framework for efficient web applications.
 - **Styling:** Utilized Tailwind CSS for a sleek and responsive design.
+
+### Backend
+
+- **AI Integration (To be Implemented):** Leveraged ChatGPT Open AI to rephrase user's text.
 
 ## Getting Started
 
@@ -48,14 +51,15 @@ Case Shift is a Next.js web application designed for text manipulation. Users ca
    - Copy the manipulated text to the clipboard.
    - Clear the input textarea when needed.
 
+## Deployed Version
+
+[Visit the deployed version]("https://case-shift.vercel.app/")
+
 ## Technologies Used
 
+- [Chat GPT Open AI](https://chat.openai.com/) (Soon) - AI Technology.
 - [Next.js](https://nextjs.org/) - React framework for building web applications.
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework.
-
-## Deployment
-
-Deploy the Case Shift app on [Vercel](https://vercel.com/). [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project-link)
 
 ## Contributing
 
@@ -64,3 +68,5 @@ Contributions are welcome! Feel free to open issues or pull requests.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
