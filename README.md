@@ -1,10 +1,8 @@
 # Case Shift - Next.js Text Manipulation App
 
-![Case Shift](your-image-url-here)
-
 ## Overview
 
-Case Shift is a Next.js web application designed for text manipulation. Users can easily convert text to different cases, copy manipulated text to the clipboard, and perform other actions on the input text.
+Case Shift is a Next.js web application designed for text manipulation. Users can easily convert text to different cases, copy manipulated text to the clipboard, and perform other actions on their input text.
 
 ## Key Features
 
@@ -25,8 +23,8 @@ Case Shift is a Next.js web application designed for text manipulation. Users ca
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/case-shift.git
-   cd case-shift
+   git clone https://github.com/your-username/Case-Shift.git
+   cd Case-Shift
    ```
 
 2. **Install dependencies:**
@@ -54,7 +52,6 @@ Case Shift is a Next.js web application designed for text manipulation. Users ca
 
 - [Next.js](https://nextjs.org/) - React framework for building web applications.
 - [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework.
-- [fetch-jsonp](https://www.npmjs.com/package/fetch-jsonp) - JSONP fetch library.
 
 ## Deployment
 

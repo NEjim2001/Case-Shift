@@ -1,9 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { fetchPhrases } from "../api/rephrase";
-
-const text =
-  "Throughout this page, we will explore the advantages and features of the Paraphrase API.";
+import { fetchPhrase, fetchPhrases } from "../api/rephrase";
 
 export default function TextManipulator() {
   const [inputValue, setInputValue] = useState("");
@@ -34,8 +31,19 @@ export default function TextManipulator() {
   }
 
   function toSentenceCase(str) {
-    // TODO ADD Period Detection
-    return str.charAt(0).toUpperCase() + str.substr(1).toLowerCase();
+    const sentences = str.split(". ");
+
+    const sentenceCaseArray = sentences.map((sentence) => {
+      if (sentence.length > 0) {
+        return (
+          sentence.charAt(0).toUpperCase() + sentence.slice(1).toLowerCase()
+        );
+      } else {
+        return sentence;
+      }
+    });
+    const sentenceCaseString = sentenceCaseArray.join(". ");
+    return sentenceCaseString;
   }
 
   function toToggleCase(str) {
@@ -104,6 +112,11 @@ export default function TextManipulator() {
     alert("Text copied to clipboard!");
   };
 
+  const fetchRephrase = () => {
+    fetchPhrase(inputValue);
+    alert("Coming soon..");
+  };
+
   const clear = () => {
     setInputValue("");
   };
@@ -144,7 +157,11 @@ export default function TextManipulator() {
         <button onClick={copyText} className='button-main' type='copy'>
           Copy Text
         </button>
-        <button className='button-special' type='rephrase'>
+        <button
+          onClick={fetchRephrase}
+          className='button-special'
+          type='rephrase'
+        >
           Rephrase
         </button>
         <button onClick={clear} className='button-clear' type='clear'>
