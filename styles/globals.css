@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  @apply flex-1 h-full py-10 space-y-10;
+}
+
+.button-main {
+  @apply bg-green-800
+    text-white
+    rounded-md
+    px-4
+    py-2
+    transition
+    duration-300
+    ease-in-out
+    sm:text-sm
+    lg:text-xl
+    hover:bg-white
+    hover:text-green-800
+    hover:border-green-800
+    border
+    border-transparent
+    focus:outline-none
+    focus:border-green-800
+    focus:ring
+    focus:ring-green-300;
+}
+
+.button-special {
+  @apply bg-yellow-400
+    text-black
+    rounded-md
+    px-4
+    py-2
+    transition
+    duration-300
+    ease-in-out
+    sm:text-sm
+    lg:text-xl
+    hover:bg-white
+    hover:text-yellow-400
+    hover:border-yellow-400
+    border
+    border-transparent
+    focus:outline-none
+    focus:border-yellow-400
+    focus:ring
+    focus:ring-yellow-100;
+}
+
+.button-clear {
+  @apply bg-red-800
+    text-white
+    rounded-md
+    px-4
+    py-2
+    transition
+    duration-300
+    ease-in-out
+    sm:text-sm
+    lg:text-xl
+    hover:bg-white
+    hover:text-red-800
+    hover:border-red-800
+    border
+    border-transparent
+    focus:outline-none
+    focus:border-red-800
+    focus:ring
+    focus:ring-red-300;
+}

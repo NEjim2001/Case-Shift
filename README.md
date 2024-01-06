@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Case Shift - Next.js Text Manipulation App
+
+![Case Shift](your-image-url-here)
+
+## Overview
+
+Case Shift is a Next.js web application designed for text manipulation. Users can easily convert text to different cases, copy manipulated text to the clipboard, and perform other actions on the input text.
+
+## Key Features
+
+- **Text Case Conversion:** Convert text to various cases, including Upper, Lower, Title, Sentence, Toggle, Camel, Pascal, and Snake cases.
+- **Clipboard Copy:** Quickly copy manipulated text to the clipboard for easy sharing.
+- **Rephrase (To be Implemented):** Upcoming feature to rephrase the text.
+- **Character, Word, and Sentence Count:** Display counts of characters, words, and sentences in the input text.
+
+## Project Overview
+
+### Frontend
+
+- **Framework:** Built with Next.js, a React framework for efficient web applications.
+- **Styling:** Utilized Tailwind CSS for a sleek and responsive design.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/your-username/case-shift.git
+   cd case-shift
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm install
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Run the application:**
 
-## Learn More
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Explore and use the Case Shift app.**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   - Input text into the textarea.
+   - Choose a case conversion type or perform other actions using the provided buttons.
+   - Copy the manipulated text to the clipboard.
+   - Clear the input textarea when needed.
 
-## Deploy on Vercel
+## Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [Next.js](https://nextjs.org/) - React framework for building web applications.
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework.
+- [fetch-jsonp](https://www.npmjs.com/package/fetch-jsonp) - JSONP fetch library.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment
+
+Deploy the Case Shift app on [Vercel](https://vercel.com/). [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project-link)
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
